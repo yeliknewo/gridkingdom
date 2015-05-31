@@ -12,6 +12,8 @@ function Tile(type, textures){
 		texture = textures.metal;
 	}else if(type == CONST.types.grain){
 		texture = textures.grain;
+	}else if(type == CONST.types.house){
+		texture = textures.house;
 	}
 	this.sprite = new Pixi.Sprite(texture);
 	this.sprite.interactive = true;
