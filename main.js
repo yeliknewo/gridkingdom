@@ -1,10 +1,11 @@
-var Pixi = require('pixi.js'), MainMenu = require('./src/MainMenu.js'), Game = require('./src/Game.js');
+var Pixi = require('pixi.js'), MainMenu = require('./src/MainMenu.js'), Game = require('./src/Game.js'), Key = require('./src/Key.js');
 
 var renderer, updateDelta, lastUpdate, gameContainer, loader, input, mainMenu, state, game;
 
 window.onload = new function(){
 	renderer = Pixi.autoDetectRenderer(800, 600);
 	input = new Pixi.interaction.InteractionManager(renderer);
+	input.keys = {space: new Key(32)};
 	gameContainer = new Pixi.Container();
 	document.body.appendChild(renderer.view);
 	

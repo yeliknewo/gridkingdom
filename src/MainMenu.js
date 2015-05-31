@@ -5,7 +5,6 @@ function MainMenu(loader){
 	this.container = new Pixi.Container();
 	this.onProgress = this.onProgress.bind(this);
 	this.onLoaded = this.onLoaded.bind(this);
-	this.update = this.update.bind(this);
 	this.playClick = this.playClick.bind(this);
 	this.loader.add('mainmenubackground', 'mainmenubackground.png')
 	.add('playbutton', 'playbutton.png')
