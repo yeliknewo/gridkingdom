@@ -18,7 +18,7 @@ gulp.task('build-r', function () {
   });
 
   return b.bundle()
-    .pipe(source('./bin/bundle.min.js'))
+    .pipe(source('./bundle.min.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
         // Add transformation tasks to the pipeline here.
@@ -36,7 +36,7 @@ gulp.task('build-d', function () {
   });
 
   return b.bundle()
-    .pipe(source('./bin/bundle.js'))
+    .pipe(source('./bundle.js'))
     .pipe(buffer())
     .pipe(sourcemaps.init({loadMaps: true}))
         // Add transformation tasks to the pipeline here.

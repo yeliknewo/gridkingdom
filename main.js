@@ -9,7 +9,7 @@ window.onload = new function(){
 	gameContainer = new Pixi.Container();
 	document.body.appendChild(renderer.view);
 	
-	loader = new Pixi.loaders.Loader('./../assets/');
+	loader = new Pixi.loaders.Loader('./assets/');
 	mainMenu = new MainMenu(loader);
 	state = 'load';
 	
