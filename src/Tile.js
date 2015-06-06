@@ -23,6 +23,10 @@ function Tile(type, owner, textures, rotation){
 	this.clicked = false;
 }
 
+Tile.prototype.getRotation = function(){
+	return this.spriteRes.rotation;
+};
+
 Tile.prototype.onClicked = function(){
 	this.clicked = true;
 };

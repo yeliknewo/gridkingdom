@@ -27,10 +27,10 @@ long_line_column=72
 current_page=2
 FILE_NAME_0=1642;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Cmain.js;0;4
 FILE_NAME_1=0;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CMainMenu.js;0;4
-FILE_NAME_2=1199;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CGame.js;0;4
-FILE_NAME_3=599;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CTile.js;0;4
+FILE_NAME_2=6510;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CGame.js;0;4
+FILE_NAME_3=837;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CTile.js;0;4
 FILE_NAME_4=0;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CKey.js;0;4
-FILE_NAME_5=342;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CConst.js;0;4
+FILE_NAME_5=332;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CConst.js;0;4
 
 [build-menu]
 NF_00_LB=Build-d
