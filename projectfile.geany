@@ -1,0 +1,47 @@
+
+[file_prefs]
+final_new_line=false
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=Grid Kingdom
+base_path=C:\\Users\\insuperior\\Desktop\\LocalServer\\HTML5\\gridkingdom
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=2
+FILE_NAME_0=1642;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Cmain.js;0;4
+FILE_NAME_1=0;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CMainMenu.js;0;4
+FILE_NAME_2=1199;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CGame.js;0;4
+FILE_NAME_3=599;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CTile.js;0;4
+FILE_NAME_4=0;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CKey.js;0;4
+FILE_NAME_5=342;Javascript;0;EUTF-8;1;1;0;C%3A%5CUsers%5Cinsuperior%5CDesktop%5CLocalServer%5CHTML5%5Cgridkingdom%5Csrc%5CConst.js;0;4
+
+[build-menu]
+NF_00_LB=Build-d
+NF_00_CM=gulp build-d
+NF_00_WD=C:\\Users\\insuperior\\Desktop\\LocalServer\\HTML5\\gridkingdom
+NF_01_LB=Make Custom _Target...
+NF_01_CM=make 
+NF_01_WD=
+NF_02_LB=Build
+NF_02_CM=gulp build
+NF_02_WD=C:\\Users\\insuperior\\Desktop\\LocalServer\\HTML5\\gridkingdom
+NF_03_LB=Build-r
+NF_03_CM=gulp build-r
+NF_03_WD=C:\\Users\\insuperior\\Desktop\\LocalServer\\HTML5\\gridkingdom

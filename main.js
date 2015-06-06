@@ -5,19 +5,16 @@ var renderer, updateDelta, lastUpdate, gameContainer, loader, input, mainMenu, s
 window.onload = new function(){
 	renderer = Pixi.autoDetectRenderer(800, 600);
 	input = new Pixi.interaction.InteractionManager(renderer);
-	input.keys = {space: new Key(32)};
+	input.keys = {space: new Key(32), ctrl: new Key(17)};
 	gameContainer = new Pixi.Container();
 	document.body.appendChild(renderer.view);
-	
 	loader = new Pixi.loaders.Loader('./assets/');
 	mainMenu = new MainMenu(loader);
 	state = 'load';
-	
 	loader.once('complete', function(){
 		startMain();
 		requestAnimationFrame(run);
 	});
-	
 	var updatesPerSecond = 40;
 	updateDelta = 1000 / updatesPerSecond;
 	lastUpdate = 0;
